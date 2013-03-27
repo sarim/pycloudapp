@@ -249,7 +249,7 @@ class Cloud(object):
         if not os.path.isfile(path):
             raise CloudException('The given path does not point to a file')
 
-        url = '%s%s/items/new' % (PROTOCOL, AUTH_URI)
+        url = '%s%s/items/new?item' % (PROTOCOL, AUTH_URI)
         if private is not None:
             # This could be shorter by just using the
             # string representation of the boolean
