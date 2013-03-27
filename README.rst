@@ -21,7 +21,7 @@ Both of these are available in pypi.
 Installation
 ============
 
-    >>> pip install -e git+git://github.com/originell/pycloudapp.git#egg=cloudapp
+    >>> pip install -e git+git://github.com/sarim/pycloudapp.git#egg=cloudapp
 
 HowTo
 =====
